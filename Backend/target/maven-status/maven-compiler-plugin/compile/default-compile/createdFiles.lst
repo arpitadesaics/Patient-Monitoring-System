@@ -1,0 +1,11 @@
+org\example\Service\AnalyticsService.class
+org\example\Service\DailyHighBPReport.class
+org\example\controller\PatientController.class
+org\example\controller\PingController.class
+org\example\Application.class
+org\example\Repository\PatientRepository.class
+org\example\controller\AnalyticsController.class
+org\example\Service\PatientService.class
+org\example\Config\WebConfig.class
+org\example\StreamLambdaHandler.class
+org\example\Model\Patient.class
