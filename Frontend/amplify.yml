@@ -3,7 +3,7 @@ frontend:
   phases:
     preBuild:
         commands:
-          - cd Patient-Monitoring-System/Frontend
+          - cd Frontend
           - npm ci
     build:
         commands:
