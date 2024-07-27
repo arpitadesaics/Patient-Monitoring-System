@@ -1,5 +1,5 @@
 version: 1
-Frontend:
+frontend:
   phases:
     preBuild:
       commands:
