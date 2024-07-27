@@ -7,4 +7,5 @@ export default {
   base: './', // Adjust this if needed
   // Other Vite configurations
 }
-}
+
+
