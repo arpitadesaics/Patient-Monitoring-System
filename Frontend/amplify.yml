@@ -1,17 +1,17 @@
-version: 1
+version: 0.1
 frontend:
   phases:
     preBuild:
-      commands:  
-        - cd Frontend
-        - npm install
+        commands:
+          - cd Patient-Monitoring-System/Frontend
+          - npm ci
     build:
-      commands:
-        - npm run build
+        commands:
+          - npm run build
   artifacts:
-    baseDirectory: Frontend
+    baseDirectory: ./Frontend/build
     files:
       - '**/*'
   cache:
     paths:
-      - Frontend/node_modules/**/*
+      - node_modules/**/*
