@@ -1,15 +1,14 @@
 version: 0.1
-frontend:
+Frontend:
   phases:
     preBuild:
-        commands:
-          - cd Frontend
+        commands:         
           - npm ci
     build:
         commands:
           - npm run build
   artifacts:
-    baseDirectory: ./Frontend/build
+    baseDirectory: ./build
     files:
       - '**/*'
   cache:
